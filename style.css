@@ -2,15 +2,19 @@ body{
     display: flex;
     flex-direction: column;
     margin: 0;
+    padding: 0;
 }
-
-
 
 .header{
     display: flex;
-    justify-content: space-around;
+    flex-direction: column;
     background-color: #1F2937;
     color: white;
+}
+
+.header-one{
+    display: flex;
+    justify-content: space-around;
 }
 
 ul{
@@ -36,7 +40,8 @@ li{
 
 .header-two{
     display: flex;
-    justify-content: center;
+    justify-content: space-around;
+    padding:50px 200px;
 }
 
 button{
@@ -50,8 +55,62 @@ button{
 }
 
 .header-two .one{
-    max-width: 300px;
+    max-width: 330px;
+    color:#E5E7EB;
 }
 
+.one h1{
+    font-size: 48px;
+    font-weight: 800;
+    color: #F9FAF8;
+}
 
+#random{
+    font-size: 36px;
+    font-weight: 800;
+    color:#1F2937;
+    text-align: center;
+}
 
+.information{
+    display: flex;
+    justify-content: center;
+    gap:20px;
+    margin-bottom: 80px;
+}
+
+.subtext{
+    max-width: 120px;
+    font-size: 14px;
+}
+
+.logo-images{
+    border:4px solid #3882F6;
+    border-radius: 8px;
+}
+
+.quote{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: #E5E7EB;
+    padding: 60px;
+    position: relative;
+}
+
+.quote .inquote{
+    max-width: 760px;
+    font-size: 36px;
+    font-style:  italic;
+    color:#1F2937;
+    margin: 0;
+}
+
+#thor{
+    margin: 0;
+    color:#1F2937;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 700;
+    align-self: flex-end;
+}
